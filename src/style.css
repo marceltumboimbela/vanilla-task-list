@@ -1,0 +1,62 @@
+:root {
+  box-sizing: border-box;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+p, h1 {
+  margin: 0;
+}
+
+button {
+  padding: 0.5rem;
+  background-color: white;
+  border: 1px solid rgb(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+.task {
+  border: 1px solid black;
+  margin-bottom: 1rem;
+}
+
+.taskHeader {
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.taskDescription {
+  padding: 1rem;
+}
+
+.taskDescription p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.userAvatarContainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.mainContainer {
+  max-width: 480px;
+  margin: 0 auto;
+}
